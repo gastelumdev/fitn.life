@@ -1,0 +1,93 @@
+html, body {
+    height: 100%;
+    background-color: rgb(246, 248, 250);
+    font-family: 'Mulish', sans-serif;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+#side-nav {
+    background-color: var(--dark);
+    width: 250px;
+    float: left;
+    color: var(--white);
+    height: 100%;
+    position: fixed;
+    padding: 10px 20px;
+}
+#side-nav div {
+    padding: 15px;
+}
+#side-nav a {
+    text-decoration: none;
+    color: var(--white);
+}
+#side-nav a:link {
+    color: var(--white);
+}
+#side-nav a:visited {
+    color: var(--white);
+}
+#side-nav a:hover {
+    color: var(--complementary);
+}
+/* #side-nav a:link .active {
+    color: #ED4593;
+} */
+#side-nav .header img {
+    width: 28px;
+}
+#side-nav .user {
+    text-align: center;
+}
+#side-nav .user img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+#side-nav .user h2 {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+}
+#side-nav .dashboard h2 {
+    font-size: 1.4em;
+    color: var(--light);
+    margin-bottom: 20px;
+}
+#side-nav .dashboard li {
+    margin-bottom: 5px;
+}
+#side-nav .dashboard i {
+    width: 25px;
+}
+#side-nav .dashboard a:link {
+    font-weight: 300;
+}
+#side-nav .dashboard a.active {
+    color: #ED4593;
+}
+nav {
+    height: 75px;
+    border-bottom: 3px solid var(--complementary);
+}
+nav .icon {
+    float: left;
+}
+#body {
+    background-color: rgb(246, 248, 250);
+}
+
+
+@media screen and (min-width: 600px) {
+    .hide {
+        display: block;
+    }
+    #body {
+        margin-left: 250px;
+        padding: 20px 0;
+    }
+}
